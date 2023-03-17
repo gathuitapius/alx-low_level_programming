@@ -1,1 +1,1 @@
-This is a low level programmming project in C
+This is a hello world project.
