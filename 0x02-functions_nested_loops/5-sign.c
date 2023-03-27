@@ -1,28 +1,28 @@
 #include "main.h"
 /**
- * int print_sign(int n) - print if num is - or + or 0.
+ * print_sign - print if num is - or + or 0.
  *
- *@n = store value to n.
+ *@n: store value to n.
  *
- *return 1, 0 or -1.
+ *return: 1, 0 or -1.
  */
 int print_sign(int n)
 {
-	if(n > 0)
+	if (n > 0)
 	{
 		_putchar('+');
-		return 1;
+		return (1);
 
 	}
-	else if(n == 0)
+	else if (n == 0)
 	{
 		_putchar('0');
-		return 0;
+		return (0);
 	}
 	else
 	{
 		_putchar('-');
-		return -1;
+		return (-1);
 	}
 }
 
