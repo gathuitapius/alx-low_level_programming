@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * print_sign - print if num is - or + or 0.
- *
- *@n: store value to n.
- *
- *return: 1, 0 or -1.
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase.
+ * @n: is a parameter of function print_sign
+ * Return: Always 0 (Success)
  */
 int print_sign(int n)
 {
