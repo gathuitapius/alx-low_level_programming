@@ -1,21 +1,27 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 - print a-z 10 times
+ * print_alphabet_x10 - print alphabet
  *
- *
+ * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
-	int alpha;
-	int count;
-	
+int alpha;
+int count;
 
-	for(alpha = 'a'; alpha <= 'z'; alpha++)
-	{
-		for(count = 1; count <= 10; count++)
-		{
-			_putchar(alpha);
-		}
-		_putchar('\n);
-	}
+
+count = 0;
+while (count < 10)
+{
+for (alpha = 'a' ; alpha <= 'z'; alpha++)
+{
+_putchar(alpha);
+}
+
+count++;
+_putchar('\n');
+}
+
+
 }

@@ -1,36 +1,24 @@
 #include "main.h"
+
 /**
- * jack_bauer - print every minute of the day, starting from 00:00 - 23:59.
+ * jack_bauer -prints every minute of the day
  *
- * Return : void
+ * Return: Always 0 if  Success.
  */
 
 void jack_bauer(void)
 {
-	int hr0, hr1;
-	int min0, min1;
-
-	for (hr0 = 0; hr0 < 2;hr0++)
-	{
-		for (hr1 = 0; hr1 < 10; hr1++)
-		{
-			for (min0 = 0; min0 < 6; min0++)
-			{
-				 for (min0 = 0; min0 < 6; min0++)
-		                        {
-						_putchar('0' + hr0);
-						_putchar('0' + hr1);
-						_putchar(':');
-						_putchar('0' + min0);
-						_putchar('0' + min1);
-						_putchar('\n');
-						if (h0 == 2 && hr1 == 3 && min0 == 5 && min1 == 9
-							{
-								return;
-							}
-                		        }
-
-			}
-		}
-	}
+int a, b;
+for (a = 0; a <= 23; a++)
+{
+for (b = 0; b <= 59; b++)
+{
+_putchar (a / 10 + '0');
+_putchar (a % 10 + '0');
+_putchar (':');
+_putchar (b / 10 + '0');
+_putchar (b % 10 + '0');
+_putchar ('\n');
+}
+}
 }
